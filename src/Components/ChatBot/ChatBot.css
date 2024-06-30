@@ -1,0 +1,22 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 1px;
+    right: 8px;
+    width: 100px;
+    height: 100px;
+    z-index: 1000;
+    animation: fly 5s infinite alternate ease-in-out;
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.navbar {
+    position: fixed;
+    background:linear-gradient(to bottom,rgb(236, 195, 236),white); 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    justify-content: space-between;
+    display: flex; 
+    align-items: center;
+}
+.buttons{
+    margin-top: -2vw;
+}
+.buttons a{
+    color:black;
+    gap:1vw;
+    font-size: 1.3vw;
+    margin-right: 3vw;
+}
+.buttons a:hover{
+    color:#ab0aab;
+
+}
+
+.imagelogo img{
+    top: 0;
+    left: 0;
+    width: 11vw;
+    height: 6.5vw;
+    margin:-0.5vw;
+    margin-left: 4vw;
+    
+}
+
+.buttons img{
+    width:2.5vw;
+    height:2vw;
+ margin-top: 2vw;
+
+}
+
+.signin{
+background:none;
+color:black;
+font-size: 1.3vw;
+margin-right: 10px;
+margin-left: -3vw;
+border: none;
+cursor:pointer;
+}
+
+.signin:hover{
+    border: none;
+    color:#ab0aab;
+}
+.signin:active {
+    border: none; /* Remove border when button is clicked */
+  }

@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main2{
+    background-color:rgb(238, 227, 233);
+    height:60vw;
+}
+.para{
+    color:black;
+    font-size: 2.5vw;
+    margin-left: 15vw;
+    margin-top: 3vw;
+    font-weight: 700;
+ 
+}
+.para3{
+    color:black;
+    font-size: 2.5vw;
+    margin-left: 23vw;
+    font-weight: 700;
+}
+.main2 .circle {
+    height: 12vw;
+    width: 12vw;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, rgb(130, 130, 207), rgb(171, 202, 211)); 
+    position: relative; 
+margin-left: 10vw;
+
+
+}
+.para2{
+    font-size: 1.3vw;
+    color:blueviolet;
+    margin-top: 2.5vw;
+    margin-left: 10vw;
+}
+.workflow img{
+    margin-left: 10vw;
+    height:5vw;
+    width:5vw;
+    position: relative;
+
+}
+.workflow .line{
+    width:20vw;
+    height:1vw;
+    margin-left: 13vw;
+margin-top: -3.5vw;
+    background-color: violet;
+}
+.workflow2 img{
+    margin-left: 31vw;
+    height:5vw;
+    width:5vw;
+    margin-top: -3vw;
+    position: relative;
+}
+
+.workflow2 .line{
+    width:20vw;
+    height:1vw;
+    margin-left: 32vw;
+margin-top: -3.5vw;
+    background-color: violet;
+}
+
+.workflow3 img{
+    margin-left: 50vw;
+    height:5vw;
+    width:5vw;
+    margin-top: -3vw;
+    position: relative;
+}
+.workflow3 .line{
+    width:20vw;
+    height:1vw;
+    margin-left: 51vw;
+margin-top: -3.5vw;
+    background-color: violet;
+}
+.workflow4 img{
+    margin-left: 70vw;
+    height:5vw;
+    width:5vw;
+    margin-top: -3vw;
+    position: relative;
+}
+.workflow4 .line{
+    width:20vw;
+    height:1vw;
+    margin-left: 71vw;
+margin-top: -3.5vw;
+    background-color: violet;
+}
+.last img{
+    margin-left: 89vw;
+    height:5vw;
+    width:5vw;
+    margin-top: -3vw;
+    position: relative;
+
+}
+.first{
+    margin-left: 6vw;
+    margin-top: -2vw;
+}
+ .heading{
+    color:#0e4b8b;
+font-size: 1.3vw;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 700;
+}
+.text{
+    color:black;
+}
+.second{
+    margin-left: 27vw;
+    margin-top: -5.5vw;
+}
+.third{
+    margin-left: 48vw;
+    margin-top: -9vw;
+}
+.fourth{
+    margin-left: 69vw;
+    margin-top: -9vw;
+}.fifth{
+    margin-left: 85vw;
+    margin-top: -9vw;
+}

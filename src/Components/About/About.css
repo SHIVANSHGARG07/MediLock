@@ -1,0 +1,53 @@
+.about{
+    background-color:rgb(205, 156, 183);
+    display:flex;
+}
+
+.texy{
+    color:black;
+    padding:5vw;
+    margin-left:-2vw;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    color: black;
+    font-weight:530;
+    
+}
+
+.right h4{
+    color:black;
+    padding:5vw;
+    margin-left: -5vw;
+}
+
+.lasty{
+    color:black;
+    padding:5vw;
+}
+.items{
+    margin-top: -5vw;
+    list-style: none;
+    color:black;
+    color:rgb(25, 24, 24);
+}
+.items2{
+    list-style: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer{
+    background-color:rgb(205, 156, 183);
+
+}
+.icons{
+    display: flex;
+    font-size: 3vw;
+    margin-left: 40vw;
+    gap:2vw;
+    color:black;
+}
+.set{
+    margin-left: 43vw;
+    color:black;
+    font-weight: 900;
+    font-size: 1.5vw;
+}

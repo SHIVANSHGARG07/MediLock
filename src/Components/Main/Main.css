@@ -1,0 +1,48 @@
+
+.main {
+background-color:rgb(238, 227, 233);
+width:100%;
+min-height: 130vh;
+overflow: hidden;
+position: relative;
+}
+
+.circle {
+    height: 22vw;
+    width: 20vw;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, rgb(130, 130, 207), rgb(171, 202, 211)); 
+    position: absolute; 
+    margin-left: -5%;
+}
+
+
+.circle2 {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(117, 117, 165), rgb(112, 195, 223)); 
+    position:absolute;
+    z-index: 2;
+    margin-left: 88%;
+    margin-top: -17vw;
+}
+
+.mainimg {
+    height: 35vw;
+    width: 60vw;
+    margin-inline-end: 19vw;
+    margin-left:20vw ;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 32vw;
+    
+   /* Ensure it is below the circles */
+}
+.texty{
+    margin-top: 15vw;
+    margin-left: 19vw;
+    position: absolute;
+    font-size: 2.9vw;
+
+}
